@@ -1,13 +1,21 @@
-- name: explore-nyu
-  description: An exploration of the NYU and some findings
+- name: explore nyu
+  description: An exploration of the NYU and some security findings
   url: https://github.com/andrebhu/explore-nyu
 
+- name: SecretScout
+  description: Supply-chain vuln scanning of repos with semgrep
+  url: https://github.com/andrebhu/SecretScout
+
+- name: GithubOrgProject
+  description: API scraping Github organizations and their open source code
+  url: https://github.com/andrebhu/GithubOrgs
+  
 - name: autofold
   description: Chrome extension built for pokernow.club
   url: https://github.com/andrebhu/autofold
 
 - name: legitdailyscreener
-  description: A NYU daily screener alternative
+  description: A NYU daily screener <a href="https://legitdailyscreener.vercel.app/">alternative</a>
   url: https://github.com/andrebhu/legitdailyscreener
 
 - name: Toilet Buddy
