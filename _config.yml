@@ -4,23 +4,22 @@ description: >-
   A personal portfolio website for Andre Hu. Used to store links to projects, blog posts, and links to other media.
 baseurl: ""
 url: "https://bhu.dev"
-# twitter_username: jekyllrb
 github_username: andrebhu
-permalink: /:year/:month/:title/
+permalink: /blog/:title
+
 # Build settings
 markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
 
 plugins:
   - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
+
 exclude:
   - .sass-cache/
   - .jekyll-cache/

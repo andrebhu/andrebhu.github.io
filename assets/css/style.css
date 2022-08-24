@@ -1,0 +1,29 @@
+body {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 5% auto;
+  }
+
+h2 {
+    margin-bottom: -0.5rem;
+}
+
+a {
+    outline: none;
+}
+
+/* Custom classes */
+
+.row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.title {
+    margin-bottom: -1rem;
+}
+
+.subtitle {
+    margin-bottom: -0.5rem;
+}
