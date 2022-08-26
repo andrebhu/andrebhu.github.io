@@ -6,8 +6,8 @@
   description: Supply-chain vuln scanning of repos with semgrep
   url: https://github.com/andrebhu/SecretScout
 
-- name: GithubOrgProject
-  description: API scraping Github organizations and their open source code
+- name: ghosst
+  description: GitHub Open-Source Scanning Tool
   url: https://github.com/andrebhu/GithubOrgs
   
 - name: autofold

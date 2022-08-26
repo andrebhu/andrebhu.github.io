@@ -19,7 +19,6 @@ kramdown:
 plugins:
   - jekyll-feed
 
-
 exclude:
   - .sass-cache/
   - .jekyll-cache/
