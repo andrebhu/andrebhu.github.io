@@ -10,10 +10,8 @@ permalink: /blog/:title
 # Build settings
 markdown: kramdown
 highlighter: rouge
-
 kramdown:
-  input: GFM
-  auto_ids: true
+  math_engine: mathjax
   syntax_highlighter: rouge
 
 plugins:
