@@ -21,6 +21,10 @@ img {
     max-height: 300px;
 }
 
+pre {
+    white-space: pre-wrap;
+}
+
 /* Custom classes */
 
 .row {
@@ -36,3 +40,4 @@ img {
 .subtitle {
     margin-bottom: -0.5rem;
 }
+
