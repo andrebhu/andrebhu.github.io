@@ -3,5 +3,5 @@
 A personal website.
 
 ## todo
-- Fix broken code highlighter
-- LaTeX?
+- LaTeX
+- side bar for quick access
