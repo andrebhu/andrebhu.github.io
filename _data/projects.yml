@@ -13,3 +13,7 @@
 - name: autofold
   description: Chrome extension built for pokernow.club
   url: https://github.com/andrebhu/autofold
+
+- name LeakyPastes
+  description: Dataset of public Pastebin snippets
+  url: https://github.com/osirislab/LeakyPastes-V2
