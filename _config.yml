@@ -3,7 +3,6 @@ email: andrebhu@gmail.com
 description: >-
   A personal portfolio website for Andre Hu. Used to store links to projects, blog posts, and links to other media.
 baseurl: ""
-url: "https://bhu.dev"
 github_username: andrebhu
 permalink: /blog/:title
 
