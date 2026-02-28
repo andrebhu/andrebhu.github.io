@@ -6,14 +6,10 @@
   description: Supply-chain vuln scanning of repos with Semgrep
   url: https://github.com/andrebhu/SecretScout
 
-- name: ghosst
-  description: GitHub Open-Source Scanning Tool
-  url: https://github.com/andrebhu/GithubOrgs
-  
 - name: autofold
   description: Chrome extension built for pokernow.club
   url: https://github.com/andrebhu/autofold
 
-- name LeakyPastes
+- name: LeakyPastes
   description: Dataset of public Pastebin snippets
   url: https://github.com/osirislab/LeakyPastes-V2
