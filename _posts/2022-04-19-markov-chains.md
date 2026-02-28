@@ -11,7 +11,7 @@ As I was first looking into Markov chains, it reminded me when I was studying gr
 ### What is a Markov chain?
 In a brief summary, it's a model that helps predict a sequence of events. Future events can be predicted based on a probability from the present. An example of a chain predicting the daily weather is shown below:
 
-![](/assets/images/markov-simple.bmp)
+![Markov chain diagram showing Sunny and Rainy weather states with transition probabilities](/assets/images/markov-simple.png)
 
 With this chain, we have two states: Sunny and Rainy. The next states from the starting states can understood as:
 - If today is Sunny, there is a 90% it remains Sunny and 10% it becomes Rainy
@@ -69,7 +69,7 @@ Condition: Sunny
 
 From the same image above, the Markov chain can also be represented as a **probability matrix**. This is where some linear algebra comes in handy:
 
-![](/assets/images/markov-probability-matrix.png)
+![Probability transition matrix for the Sunny and Rainy Markov chain](/assets/images/markov-probability-matrix.png)
 
 The odds of each state returning to it's current state or switching can be described below. Another question naturally arises, how can we predict long-run probabilities? We can try modifying the code and running it for a longer period of time.
 
@@ -114,7 +114,7 @@ After a million iterations, we can see on average it's sunny for 83.2% and rainy
 
 We can also use some linear algebra to calculate the probabilities for 20 days:
 
-![](/assets/images/markov-calculation.png)
+![Matrix calculation showing Sunny and Rainy state probabilities over 20 days](/assets/images/markov-calculation.png)
 
 We can see the results are very close despite calculating for 20 days (more would require a lot of compute). If we are able to obtain an accurate probability matrix creating a Markov chain to see how markets move, it could be useful.
 
@@ -132,7 +132,7 @@ it be used?
 ### Applications into Finance
 A basic example of a Markov chain for the market condition is shown below:
 
-![](/assets/images/markov-finance.png)
+![Markov chain diagram for financial market states: Bull, Bear, and Stagnant with transition probabilities](/assets/images/markov-finance.png)
 
 This model has three states: Bull, Bear, and Stagnant markets:
 - Bull Market: a period of time where prices are rising
