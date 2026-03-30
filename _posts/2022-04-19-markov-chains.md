@@ -3,6 +3,10 @@ layout: post
 title: Predicting Stock-Market Behavior with Markov Chains
 date: 2022-04-19
 ---
+
+* TOC
+{:toc}
+
 *Note: This was a mini-research project for a class called Machine Learning in Finance. It was taught by an amazing professor, Derek Snow, you check out his website [here](https://www.ml-quant.com/)*
 
 ### Introduction
